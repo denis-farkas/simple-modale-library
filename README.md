@@ -3,16 +3,16 @@
 A library of React components created using `create-react-app`.
 
 ## Installation
-Run the following command:`npm install react-modale-exercice --force`.
+Run the following command:`npm install react-modal-exercice --force`.
 
 For compatibility with Babel dependencies, we used react version 16.8.
-But no matter for working with react version 18.
+But no matter, it's working with react version 18.
 
 ## Example App
 
 ``` 
 
-import { Modal, useModal } from 'react-modale-exercice';
+import { Modal, useModal } from 'react-modal-exercice';
 
 function App() {
  const { isShowing, toggle } = useModal();  
